@@ -1,8 +1,57 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
 #pics img{
 	border: 8px solid #fff;
 	border-color: black;
+}
+
+.navbar-brand img {
+	height: 50px;
+}
+
+.navbar-brand {
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* ActiveButton */
+ul.nav.navbar-nav li.active a {
+	background-color: #78324E;
+	color: #fff;
+}
+
+/* ActiveButton:Hover */
+ul.nav.navbar-nav li.active a:hover {
+	background-color: #78324E;
+    color: #fff;
+}
+
+/* NavButton */
+ul.nav.navbar-nav li a {
+    background-color: #fff;
+	color: #777;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+/* NavButton: Hover */
+ul.nav.navbar-nav li a:hover {
+    background-color: #78324E;
+	color: #fff;
+}
+
+ul.dropdown-menu li a {
+	background-color: #FFF;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+ul.dropdown-menu li a:hover {
+	background-color: #78324E;
+	color: #000;
 }
